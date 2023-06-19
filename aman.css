@@ -1,0 +1,55 @@
+.amanone{
+    background-color: #fdd11e;
+    height: 100vh;
+    width: 100vw;
+}
+
+.one{
+   
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.two{
+    height: 20vh;
+    background: #ff555a;
+    position: relative;
+}
+
+p{
+    margin-bottom: 11vh;
+    font-size: 41px;
+    color: white;
+    background: rgb(0,0,0,50%);
+    padding: 15px 26px;
+    border-radius: 55%;
+}
+
+.absolutevala{
+    position: absolute;
+    height: 21vh;
+    width: 24vw;
+    /* background: #fdd11e; */
+    top: -12vh;
+    background: #fdd11e;
+    left: 38%;
+    /* transform: rotate(44deg); */
+    transform-origin: left;
+    transform: skewX(67deg) rotate(-11deg);
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    font-size: 45px;
+    color: white;
+
+}
